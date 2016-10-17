@@ -25,7 +25,7 @@ def readRemoteCSV(url):
     
     # Read the raw data and store it
     response = urllib2.urlopen(url)
-    reader   = csv.reader(response)
+    reader   = ???
     for row in reader: 
         urlData.append( row )
     
@@ -35,7 +35,7 @@ def readRemoteCSV(url):
     # We need to know the names of the fields 
     # in the data set because these become the
     # keys in the dictionary-of-lists.
-    header = urlData[0]
+    header = ???
     print("Header is: " + ", ".join(header)) # Debugging
     
     # Initialise each key in myData with an empty list. 
@@ -55,7 +55,7 @@ def readRemoteCSV(url):
     # let the user fix later.
     for i in xrange(1, len(urlData)):
         for j in xrange(len(urlData[i])):
-            myData[ header[j] ].append(urlData[i][j])
+            myData[ ??? ].append( ??? )
     
     return myData
 
@@ -74,11 +74,11 @@ data1['Latitude']   = [float(i) for i in data1['Latitude']]
 data1['Longitude']  = [float(i) for i in data1['Longitude']]
 
 # Find the population of Manchester
-pop = data1['Population'][data1['Name'].index('Greater Manchester')]
+pop = data1['Population'][ ??? ]
 print "The population of Manchester is: " + str(pop)
 
 # Find the easternmost city
-city = data1['Name'][data1['Longitude'].index(max(data1['Longitude']))]
+city = data1['Name'][???]
 print "The easternmost city is: " + str(city)
 
 # Find the mean population of the cities
@@ -95,17 +95,10 @@ data2['Population'] = [int(i) for i in data2['Population']]
 data2['Latitude']   = [float(i) for i in data2['Latitude']]
 data2['Longitude']  = [float(i) for i in data2['Longitude']]
 
-# Find the population of Manchester
-pop = data2['Population'][data2['Name'].index('Greater Manchester')]
-print "The population of Manchester is: " + str(pop)
+# Find the population of Birmingham
 
-# Find the easternmost city
-city = data2['Name'][data2['Longitude'].index(max(data2['Longitude']))]
-print "The easternmost city is: " + str(city)
+# Find the westernmost city
 
 # Find the mean population of the cities
-import numpy as np # Need to import a useful package
-mean = np.mean(data2['Population'])
-print "The mean population is: " + str(mean)
 
 # Bonus! Find the standard deviation of city sizes
