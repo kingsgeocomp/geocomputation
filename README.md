@@ -54,8 +54,9 @@
     * Simple calculations
     * Changing column types
     * Working with time data
-    * Introducing... AirBnB data? (we dropped APIs, they're now in optional 3b)
+    * Introducing... AirBnB data? (we dropped APIs, they're now in optional Practical-03b)
       * I would start by using the city data from the previous week and _then_ introducing real data near the end
+      * Might also be worth just using the listings.csv data instead of the fuller .gz file for speed/simplicity and then I will use the full file in the following week.
       * Also an opportunity to introduce reading .gz/.zip files directly in pandas
 * 6: Working with Subsets of Data
     * More on Boolean algebra in pandas selection
