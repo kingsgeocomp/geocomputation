@@ -46,12 +46,12 @@
     * Lists
     * Dictionaries
 * 3: Working with Data (Pandas)
+    * Possibly introduce concept of objects and methods [copy from Spatial Analysis Week 2? 3?]
     * Link back to Week 2 and DoL
-    * Pandas syntax
-    * Quick plots
-    * Selection and subsetting
-    * Max/Min/Range
-    * Searching text
+    * Pandas syntax for columns (both '.' and foo['bar'] and why they exist)
+    * Describe, summary, etc.
+    * Max/Min/Range and other stats functions (e.g. IQR)
+    * Simple calculations
     * Changing column types
     * Working with time data
     * Introducing... AirBnB data? (we dropped APIs, they're now in optional 3b)
