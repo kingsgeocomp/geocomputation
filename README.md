@@ -3,7 +3,7 @@
 
 ## Jon's practicals:
 
-* 2: Functions, Packages & Methods
+* 2: Functions, Packages & Methods [Complete]
     * Use a lib to read a remote file
     * Use string.split to parse CSV data
     * Use a lib to parse CSV data
@@ -55,6 +55,7 @@
     * Changing column types
     * Working with time data
     * Introducing... AirBnB data? (we dropped APIs, they're now in optional 3b)
+      * I would start by using the city data from the previous week and _then_ introducing real data near the end
       * Also an opportunity to introduce reading .gz/.zip files directly in pandas
 * 6: Working with Subsets of Data
     * More on Boolean algebra in pandas selection
