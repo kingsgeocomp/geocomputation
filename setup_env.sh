@@ -18,15 +18,18 @@ printf "Insalling required notebook packages\n"
 conda install -y ipython jupyter nb_conda
 
 printf "Installing default packages\n"
-conda install -y matplotlib=2.0* numpy=1.12* scipy=0.19* seaborn=0.8* scikit-learn=0.18* statsmodels=0.8.0 basemap requests 
+conda install -y matplotlib numpy scipy seaborn=0.8* scikit-learn=0.18* statsmodels=0.8.0 basemap requests 
 
 printf "Installing packages from conda-forge...\n"
-conda install --y -c conda-forge clusterpy=0.9.9 fiona=1.7* geopandas=0.2* palettable=3.* pysal=1.13* folium mplleaflet rasterio
+conda install --y -c conda-forge clusterpy=0.9.9 geopandas=0.2* palettable=3.* pysal=1.13* folium mplleaflet rasterio fiona
 
 # From Source
 printf "Installing final packages via pip...\n"
 pip install cenpy
 pip install sompy
+
+printf "Exporting to YAML for cloning...\n"
+conda env export > "$ENVNM.yml
 
 printf "Done.\n"
 source deactivate "$ENVNM"
