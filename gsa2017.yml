@@ -1,0 +1,171 @@
+name: gsa2017
+channels:
+- conda-forge
+- defaults
+dependencies:
+- affine=2.1.0=py27_0
+- attrs=17.2.0=py27_0
+- boto3=1.4.7=py27_0
+- botocore=1.5.92=py27_0
+- branca=0.2.0=py27_0
+- click=6.7=py27_0
+- click-plugins=1.0.3=py27_0
+- cligj=0.4.0=py27_0
+- clusterpy=0.9.9=py27_2
+- curl=7.54.1=0
+- descartes=1.1.0=py27_0
+- docutils=0.14=py27_0
+- fiona=1.7.9=py27_1
+- folium=0.3.0=py27_0
+- futures=3.1.1=py27_0
+- geopandas=0.2.1=py27_4
+- hdf4=4.2.12=0
+- hdf5=1.8.17=11
+- hypothesis=3.23.0=py27_0
+- jmespath=0.9.3=py27_0
+- jpeg=9b=0
+- kealib=1.4.6=3
+- krb5=1.14.2=0
+- libgfortran=3.0.0=0
+- libnetcdf=4.4.1=0
+- libpq=9.6.3=0
+- libspatialindex=1.8.5=1
+- libssh2=1.8.0=1
+- libtiff=4.0.6=7
+- mplleaflet=0.0.5=py27_1
+- munch=2.2.0=py27_0
+- palettable=3.0.0=py27_0
+- psycopg2=2.7.3=py27_0
+- pympler=0.5=py27_0
+- pyproj=1.9.5.1=py27_0
+- pysal=1.13.0=py27_0
+- rasterio=0.36.0=py27_0
+- rtree=0.8.3=py27_0
+- s3transfer=0.1.11=py27_0
+- shapely=1.5.13=py27_0
+- snuggs=1.4.1=py27_0
+- sqlalchemy=1.1.13=py27_0
+- vincent=0.4.4=py27_0
+- xz=5.2.3=0
+- _nb_ext_conf=0.4.0=py27_1
+- anaconda-client=1.6.3=py27_0
+- anaconda=custom=py27_0
+- appnope=0.1.0=py27_0
+- backports=1.0=py27_0
+- backports_abc=0.5=py27_0
+- basemap=1.0.7=np113py27_0
+- bleach=1.5.0=py27_0
+- clyent=1.2.2=py27_0
+- configparser=3.5.0=py27_0
+- cycler=0.10.0=py27_0
+- decorator=4.1.2=py27_0
+- entrypoints=0.2.3=py27_0
+- enum34=1.1.6=py27_0
+- freetype=2.5.5=2
+- functools32=3.2.3.2=py27_0
+- gdal=2.1.0=py27_0
+- geos=3.5.0=0
+- geotiff=1.4.1=0
+- get_terminal_size=1.0.0=py27_0
+- html5lib=0.9999999=py27_0
+- icu=54.1=0
+- ipykernel=4.6.1=py27_0
+- ipython=5.3.0=py27_0
+- ipython_genutils=0.2.0=py27_0
+- ipywidgets=6.0.0=py27_0
+- jinja2=2.9.6=py27_0
+- jsonschema=2.6.0=py27_0
+- jupyter=1.0.0=py27_3
+- jupyter_client=5.1.0=py27_0
+- jupyter_console=5.2.0=py27_0
+- jupyter_core=4.3.0=py27_0
+- libgdal=2.1.0=0
+- libpng=1.6.30=1
+- markupsafe=1.0=py27_0
+- matplotlib=2.0.2=np113py27_0
+- mistune=0.7.4=py27_0
+- mkl=2017.0.3=0
+- nb_anacondacloud=1.4.0=py27_0
+- nb_conda=2.2.0=py27_0
+- nb_conda_kernels=2.1.0=py27_0
+- nbconvert=5.2.1=py27_0
+- nbformat=4.4.0=py27_0
+- nbpresent=3.0.2=py27_0
+- notebook=5.0.0=py27_0
+- numpy=1.13.1=py27_0
+- openssl=1.0.2l=0
+- pandas=0.20.3=py27_0
+- pandocfilters=1.4.2=py27_0
+- path.py=10.3.1=py27_0
+- pathlib2=2.3.0=py27_0
+- patsy=0.4.1=py27_0
+- pexpect=4.2.1=py27_0
+- pickleshare=0.7.4=py27_0
+- pip=9.0.1=py27_1
+- proj4=4.9.2=0
+- prompt_toolkit=1.0.15=py27_0
+- ptyprocess=0.5.2=py27_0
+- pygments=2.2.0=py27_0
+- pyparsing=2.2.0=py27_0
+- pyqt=5.6.0=py27_2
+- python=2.7.13=0
+- python-dateutil=2.6.1=py27_0
+- pytz=2017.2=py27_0
+- pyyaml=3.12=py27_0
+- pyzmq=16.0.2=py27_0
+- qt=5.6.2=2
+- qtconsole=4.3.1=py27_0
+- readline=6.2=2
+- requests=2.14.2=py27_0
+- scandir=1.5=py27_0
+- scikit-learn=0.18.2=np113py27_0
+- scipy=0.19.1=np113py27_0
+- seaborn=0.8=py27_0
+- setuptools=27.2.0=py27_0
+- simplegeneric=0.8.1=py27_1
+- singledispatch=3.4.0.3=py27_0
+- sip=4.18=py27_0
+- six=1.10.0=py27_0
+- sqlite=3.13.0=0
+- ssl_match_hostname=3.5.0.1=py27_0
+- statsmodels=0.8.0=np113py27_0
+- subprocess32=3.2.7=py27_0
+- terminado=0.6=py27_0
+- testpath=0.3.1=py27_0
+- tk=8.5.18=0
+- tornado=4.5.2=py27_0
+- traitlets=4.3.2=py27_0
+- wcwidth=0.1.7=py27_0
+- wheel=0.29.0=py27_0
+- widgetsnbextension=3.0.2=py27_0
+- xerces-c=3.1.4=0
+- yaml=0.1.6=0
+- zlib=1.2.11=0
+- zope=1.0=py27_0
+- zope.interface=4.4.2=py27_0
+- pip:
+  - backports-abc==0.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.5.0.1
+  - beautifulsoup4==4.4.1
+  - cenpy==0.9.3
+  - certifi==2016.8.2
+  - geographiclib==1.46.3
+  - gnureadline==6.3.3
+  - gspread==0.4.1
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.3.0
+  - jupyter-console==5.0.0
+  - jupyter-core==4.1.0
+  - nb-anacondacloud==1.4.0
+  - nb-conda==2.2.0
+  - nb-conda-kernels==2.1.0
+  - powerline-status==2.5.dev9999
+  - prompt-toolkit==1.0.5
+  - scimath==4.1.2
+  - sompy==0.1.1
+  - traits==4.5.0
+  - wikipedia==1.4.0
+  - xlrd==0.9.4
+prefix: /Applications/anaconda/envs/gsa2017
+
