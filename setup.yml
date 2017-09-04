@@ -7,21 +7,17 @@ channels:
 dependencies:
   - python=2.7
   - pip
-  - bokeh
-  - networkx
-  - dask
-  - cartopy
+  - clusterpy
   - geopandas
   - ipython
   - ipywidgets
   - jupyter
   - mplleaflet
+  - nb_conda
   - palettable
-  - pillow
   - pip:
-        - contextily
         - sompy
-  - qgrid
+  - pysal
   - rasterio
   - scikit-learn
   - seaborn
@@ -29,4 +25,4 @@ dependencies:
   - xlrd
   - xlsxwriter
   - requests
-  - clusterpy
+  - folium
