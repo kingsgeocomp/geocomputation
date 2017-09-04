@@ -2,6 +2,7 @@
 
 ENVNM="gsa2017"
 
+printf "Updating conda...\n"
 conda update --quiet --yes conda
 
 # If already exists:
