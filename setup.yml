@@ -1,0 +1,32 @@
+# Run `conda-env create -f setup.yml`
+name: gsa2017
+channels:
+  - conda-forge
+  - ioos
+  - defaults
+dependencies:
+  - python=2.7
+  - pip
+  - bokeh
+  - networkx
+  - dask
+  - cartopy
+  - geopandas
+  - ipython
+  - ipywidgets
+  - jupyter
+  - mplleaflet
+  - palettable
+  - pillow
+  - pip:
+        - contextily
+        - sompy
+  - qgrid
+  - rasterio
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - xlsxwriter
+  - requests
+  - clusterpy
