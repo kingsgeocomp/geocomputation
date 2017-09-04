@@ -11,7 +11,7 @@
     * Create a function to parse CSV data
     * Calculating values derived from CSV data (using function on LoL)
     * Calculating values derived from CSV data (using function on DoL)
-* 4: Visualising Data
+* 4: Visualising Data [Complete]
     * Using pandas with header data
     * Statistics as judgement, not truth -- plotting as first step on this path
     * Seaborn 
