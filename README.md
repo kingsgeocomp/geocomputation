@@ -1,41 +1,7 @@
 
 # Practical responsibilities!
 
-## Jon's practicals:
-
-* 2: Functions, Packages & Methods [Complete]
-    * Use a lib to read a remote file
-    * Use string.split to parse CSV data
-    * Use a lib to parse CSV data
-    * Create a function to read a remote file
-    * Create a function to parse CSV data
-    * Calculating values derived from CSV data (using function on LoL)
-    * Calculating values derived from CSV data (using function on DoL)
-* 4: Visualising Data [Complete]
-    * Using pandas with header data
-    * Statistics as judgement, not truth -- plotting as first step on this path
-    * Seaborn 
-    * 3D plots
-    * [Interpreting plots and other summary metrics]
-    * Saving a plot
-    * Automating analysis (loops but over data series now)
-* 5: Assessed Notebook
-    * _Any content we want to add for practicing for the next week? Or a re-cap assignment?_
-* 7: Transformation and Standardisation
-    * [From Week 4] Thinking in 'data space' 
-    * What counts as extreme?
-    * Finding outliers
-    * Residuals (first exposure to this)
-    * Simple Transformations??? [from Week 4]
-    * Simple Standardisations??? [from Week 4]
-* 8: Making a Map
-    * PySAL and loading shapefiles
-    * Look at impact of transforms on understanding of map
-    * Joins (non-spatial only?)
-
-## James' practicals:
-
-* 1: Code Camp Recap
+* 1: Code Camp Recap [JM]
     * Scripts vs Notebooks
     * Errors
     * Data Types & Input
@@ -45,7 +11,15 @@
     * Loops
     * Lists
     * Dictionaries
-* 3: Working with Data (Pandas)
+* 2: Functions, Packages & Methods [JR? Complete]
+    * Use a lib to read a remote file
+    * Use string.split to parse CSV data
+    * Use a lib to parse CSV data
+    * Create a function to read a remote file
+    * Create a function to parse CSV data
+    * Calculating values derived from CSV data (using function on LoL)
+    * Calculating values derived from CSV data (using function on DoL)
+* 3: Working with Data [JM?]
     * Possibly introduce concept of objects and methods [copy from Spatial Analysis Week 2? 3?]
     * Link back to Week 2 and DoL
     * Pandas syntax for columns (both '.' and foo['bar'] and why they exist)
@@ -58,7 +32,17 @@
       * I would start by using the city data from the previous week and _then_ introducing real data near the end
       * Might also be worth just using the listings.csv data instead of the fuller .gz file for speed/simplicity and then I will use the full file in the following week.
       * Also an opportunity to introduce reading .gz/.zip files directly in pandas
-* 6: Working with Subsets of Data
+* 4: Visualising Data [JR? Complete]
+    * Using pandas with header data
+    * Statistics as judgement, not truth -- plotting as first step on this path
+    * Seaborn 
+    * 3D plots
+    * [Interpreting plots and other summary metrics]
+    * Saving a plot
+    * Automating analysis (loops but over data series now)
+* 5: Assessed Notebook [JR]
+    * _Any content we want to add for practicing for the next week? Or a re-cap assignment?_
+* 6: Working with Subsets of Data [JM]
     * More on Boolean algebra in pandas selection
     * Links to vector and raster analysis? 
     * Using the index [from Week 4]
@@ -66,10 +50,21 @@
     * Sampling data [from Week 4] -- could be very useful for exploring big-_n_ problem so maybe not here?
     * Using loc/iloc (now superseded in some latest pandas???) [from Week 4]
     * Matching on parts of a word, extracting parts of a word [from Week 4]
-* 9: Correlation and Residuals
+* 7: Transformation and Standardisation [JR]
+    * [From Week 4] Thinking in 'data space' 
+    * What counts as extreme?
+    * Finding outliers
+    * Residuals (first exposure to this)
+    * Simple Transformations??? [from Week 4]
+    * Simple Standardisations??? [from Week 4]
+* 8: Making a Map [JR]
+    * PySAL and loading shapefiles
+    * Look at impact of transforms on understanding of map
+    * Joins (non-spatial only?)
+* 9: Correlation and Residuals [JM]
     * Builds on standardisation and normalisation from Week 7
     * Possibly use scipy here since it has rank and Pearson correlation, and is a very well-used lib in the real world
     * Plot residuals on map and in graph! 
     * Seaborn (can include r^2 and rank correlation)
-* 10: Aggregation and group-by
+* 10: Aggregation and group-by [JM]
     * Brings in issues of scale and, implicitly, MAUP
