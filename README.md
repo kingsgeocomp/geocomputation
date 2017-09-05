@@ -2,6 +2,7 @@
 # Practical responsibilities!
 
 * Create a notebook that downloads and merges a range of public data
+    * Jon to post OA shapefile
     * Work at Output Area scale (ca. 30k)
     * Derive distance to nearest park (one column per class) from each OA
     * Derive air quality measures for each OA
