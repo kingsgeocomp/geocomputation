@@ -21,6 +21,7 @@ dependencies:
   - rasterio
   - scikit-learn
   - seaborn
+  - shapely
   - statsmodels
   - xlrd
   - xlsxwriter
