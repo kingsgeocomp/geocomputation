@@ -1,3 +1,4 @@
+# conda remove --name gsa2017 --all
 # Run `conda-env create -f setup.yml`
 name: gsa2017
 channels:
