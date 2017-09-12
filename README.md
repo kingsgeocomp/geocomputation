@@ -36,6 +36,7 @@
     * Possibly introduce concept of objects and methods [copy from Spatial Analysis Week 2? 3?]
     * Link back to Week 2 and DoL
     * Pandas syntax for columns (both '.' and foo['bar'] and why they exist)
+    * Renaming columns (for the above bullet point... might be useful later as all the column names I've given them have spaces)
     * Describe, summary, etc.
     * Max/Min/Range and other stats functions (e.g. IQR)
     * Simple calculations
