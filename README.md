@@ -33,7 +33,6 @@
     * Calculating values derived from CSV data (using function on DoL)
 * 3: Working with Data [JM]
     * Methods (for Pandas)
-    * Possibly introduce concept of objects and methods [copy from Spatial Analysis Week 2? 3?]
     * Link back to Week 2 and DoL
     * Pandas syntax for columns (both '.' and foo['bar'] and why they exist)
     * Renaming columns (for the above bullet point... might be useful later as all the column names I've given them have spaces)
@@ -72,6 +71,8 @@
     * Simple Transformations??? [from Week 4]
     * Simple Standardisations??? [from Week 4]
 * 8: Making a Map [JR]
+    * Objects and methods [copy from Spatial Analysis Week 2? 3?]
+        * (use geopandas to anchor this)
     * PySAL and loading shapefiles
     * Look at impact of transforms on understanding of map
     * Joins (non-spatial only?)
