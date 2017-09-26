@@ -9,7 +9,7 @@ dependencies:
   - python=2.7
   - pip
   - clusterpy
-  - geopandas
+  - geopandas=0.3.0
   - ipython
   - ipywidgets
   - jupyter
@@ -18,11 +18,11 @@ dependencies:
   - palettable
   - pip:
         - sompy
-  - pysal
+  - pysal=1.13.0
   - rasterio
   - scikit-learn
   - seaborn
-  - shapely
+  - shapely=1.5.16
   - statsmodels
   - xlrd
   - xlsxwriter
