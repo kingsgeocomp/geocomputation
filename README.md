@@ -1,14 +1,6 @@
 
 # Practical responsibilities!
 
-* Create a notebook that downloads and merges a range of public data
-    * Jon to post OA shapefile
-    * Work at Output Area scale (ca. 30k)
-    * Amount of LSOA that is park land
-    * Amount of LSOA within 250m of a major road
-    * Derive air quality measures for each OA
-    * Add some Census variables (3-4?)
-    * Add aggregate AirBnB measures for each OA (look at what people are using in their research)
 * Add 30 minutes to lectures for 'talking through the practical'
 * Add questions into the practical to test higher-level knowledge/understanding
 
