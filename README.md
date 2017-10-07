@@ -27,16 +27,11 @@
     * Methods (for Pandas)
     * Link back to Week 2 and DoL
     * Pandas syntax for columns (both '.' and foo['bar'] and why they exist)
-    * Renaming columns (for the above bullet point... might be useful later as all the column names I've given them have spaces)
     * Describe, summary, etc.
+    * Introduce string.format()
     * Max/Min/Range and other stats functions (e.g. IQR)
-    * Simple calculations
-    * Changing column types
-    * [Working with time data]
-    * Introducing... AirBnB data? (we dropped APIs, they're now in optional Practical-03b)
-      * I would start by using the city data from the previous week and _then_ introducing real data near the end
-      * Might also be worth just using the listings.csv data instead of the fuller .gz file for speed/simplicity and then I will use the full file in the following week.
-      * Also an opportunity to introduce reading .gz/.zip files directly in pandas
+    * Also an opportunity to introduce reading .gz/.zip files directly in pandas
+    * Look at basic pandas plotting functionality (lead into Seaborn in Week 4)
 * 4: Visualising Data [JR? Complete]
     * Using pandas with header data
     * Statistics as judgement, not truth -- plotting as first step on this path
@@ -46,15 +41,15 @@
     * Saving a plot
     * Automating analysis (loops but over data series now)
 * 5: Assessed Notebook [JR]
-    * _Any content we want to add for practicing for the next week? Or a re-cap assignment?_
+    * _Assign reading for following week: Openshaw 1998 and Wyly 2014_
 * 6: Working with Subsets of Data [JM]
-    * More on Boolean algebra in pandas selection
-    * Links to vector and raster analysis? 
+    * Non-spatial Joins - join air quality data to existing LSOA data
     * Using the index [from Week 4]
-    * Finding values, grouping by values, etc. [from Week 4]
-    * Sampling data [from Week 4] -- could be very useful for exploring big-_n_ problem so maybe not here?
-    * Using loc/iloc (now superseded in some latest pandas???) [from Week 4]
+    * Renaming columns (show how this was done in Data Loader nb)
+    * Finding values, grouping by values (for Boroughs) [from Week 4]
+    * Sampling data [from Week 4] -- will just highlight quickly
     * Matching on parts of a word, extracting parts of a word [from Week 4]
+    * Exercises: Initial exploratory analysis of pollution data 
 * 7: Transformation and Standardisation [JR]
     * Thinking in 'data space' [From Week 4]
     * What counts as extreme?
@@ -67,7 +62,7 @@
         * (use geopandas to anchor this)
     * PySAL and loading shapefiles
     * Look at impact of transforms on understanding of map
-    * Joins (non-spatial only?)
+    * Joins? (non-spatial already done in week 6)
 * 9: Correlation and Residuals [JM]
     * Builds on standardisation and normalisation from Week 7
     * Possibly use scipy here since it has rank and Pearson correlation, and is a very well-used lib in the real world
