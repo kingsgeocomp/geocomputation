@@ -19,6 +19,7 @@ dependencies:
   - pip:
         - -e git+git://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
   - pysal=1.13.0
+  - bokeh
   - rasterio
   - scikit-learn
   - seaborn
