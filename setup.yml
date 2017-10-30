@@ -17,7 +17,7 @@ dependencies:
   - nb_conda
   - palettable
   - pip:
-        - -e git+https://github.com/sevamoo/SOMPY.git#egg=SOMPY
+        - -e git+git://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
   - pysal=1.13.0
   - rasterio
   - scikit-learn
