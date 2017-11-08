@@ -63,6 +63,7 @@
     * PySAL and loading shapefiles
     * Look at impact of transforms on understanding of map
     * Joins? (non-spatial already done in week 6)
+        * Illustrate using Airbnb raw data (also gives geopandas whirl)!
 * 9: Correlation and Residuals [JM]
     * Builds on standardisation and normalisation from Week 7
     * Possibly use scipy here since it has rank and Pearson correlation, and is a very well-used lib in the real world
