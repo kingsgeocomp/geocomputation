@@ -1,5 +1,9 @@
 # conda remove --name gsa2017 --all
 # Run `conda-env create -f setup.yml`
+# For Applied GSA you must have SOMPY installed.
+# To include SOMPY you must have Git installed;
+# on a Mac this requires the developer tools via:
+# `xcode-select --install` to be run in the Terminal.
 name: gsa2017
 channels:
   - conda-forge
@@ -16,8 +20,8 @@ dependencies:
   - mplleaflet
   - nb_conda
   - palettable
-  - pip:
-        - -e git+git://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
+#  - pip:
+#        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
   - pysal=1.13.0
   - bokeh
   - rasterio
