@@ -12,6 +12,7 @@ channels:
 dependencies:
   - python=2.7
   - pip
+  - bokeh
   - clusterpy
   - geopandas=0.3.0
   - ipython
