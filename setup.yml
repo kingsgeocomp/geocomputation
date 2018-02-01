@@ -7,12 +7,11 @@
 name: gsa2017
 channels:
   - conda-forge
-  - ioos
-  - defaults
 dependencies:
   - python=2.7
   - pip
   - libgdal
+  - libspatialite
   - bokeh
   - clusterpy
   - geopandas=0.3.0
@@ -22,8 +21,6 @@ dependencies:
   - mplleaflet
   - nb_conda
   - palettable
-#  - pip:
-#        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
   - scipy=0.19.0
   - pysal=1.13.0
   - bokeh
@@ -36,3 +33,10 @@ dependencies:
   - xlsxwriter
   - requests
   - folium
+#  - pip:
+#        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
+#        Not tested:
+#        - git+git://github.com/ozak/georasters.git
+#        Try this first:
+#        - georasters
+#        - rasterstats
