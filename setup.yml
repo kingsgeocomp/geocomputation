@@ -1,5 +1,10 @@
-# conda remove --name gsa2017 --all
-# Run `conda-env create -f setup.yml`
+# If you've already installed this environment before:
+#   > `conda remove --name gsa2017 --all`
+# To install/reinstall the environment:
+#   > `conda-env create -f setup.yml`
+# A nice way to set the display name for the environment:
+#   > `python -m ipykernel install --name gsa2017 --display-name "GSA 2017"`
+#
 # For Applied GSA you must have SOMPY installed.
 # To include SOMPY you must have Git installed;
 # on a Mac this requires the developer tools via:
@@ -10,33 +15,39 @@ channels:
 dependencies:
   - python=2.7
   - pip
-  - libgdal
-  - libspatialite
-  - bokeh
-  - clusterpy
-  - geopandas=0.3.0
+  - cython
+  - matplotlib
+  - pandas
+  - scipy>=0.19
+  - numpy>=1.11
   - ipython
   - ipywidgets
   - jupyter
+  - requests
   - mplleaflet
   - nb_conda
+  - gdal
+  - libspatialite
+  - fiona
+  - pillow
+  - shapely=1.5.16
+  - geopandas>=0.3
   - palettable
-  - scipy=0.19.0
-  - pysal=1.13.0
-  - bokeh
+  - pysal
   - rasterio
   - scikit-learn
+  - scikit-image
+  - bokeh
+  - folium
   - seaborn
-  - shapely=1.5.16
   - statsmodels
   - xlrd
-  - xlsxwriter
-  - requests
-  - folium
-#  - pip:
+  - clusterpy
+  - pip:
+    - georasters
+    - rasterstats
+    - pointpats
+    - SOMPY
 #        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
-#        Not tested:
+#   Untested alternative to pip command above (requires git):
 #        - git+git://github.com/ozak/georasters.git
-#        Try this first:
-#        - georasters
-#        - rasterstats
