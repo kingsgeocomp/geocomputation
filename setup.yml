@@ -43,6 +43,7 @@ dependencies:
   - statsmodels
   - xlrd
   - clusterpy
+  - jupyterlab
   - pip:
     - georasters
     - rasterstats
