@@ -1,25 +1,45 @@
-# If you've already installed this environment before:
-#   > `conda remove --name gsa2017 --all`
-# To install/reinstall the environment:
-#   > `conda-env create -f setup.yml`
-# A nice way to set the display name for the environment:
-#   > `python -m ipykernel install --name gsa2017 --display-name "GSA 2017"`
+# OVERVIEW
+# This YAML script will attempt to install a Python virtual environment able to
+# support the requirements of all three of King's College London's 'Geocomputation' 
+# pathway in the BA/BSc Geography programme.
 #
-# For Applied GSA you must have SOMPY installed.
-# To include SOMPY you must have Git installed;
-# on a Mac this requires the developer tools via:
-# `xcode-select --install` to be run in the Terminal.
-name: gsa2017
+# INSTALLATION
+# Note that, in the example commands below, you will need to replace {name} by the name 
+# value specified as a configuration parameter below (the first line that does *not* 
+# start with a hash (#). All the commands below should be run from the Terminal.
+#
+# If you've already installed this environment before:
+#   conda remove --name {name} --all
+#
+# To install/reinstall the environment:
+#   conda-env create -f setup.yml
+#
+# To install/update individual libraries you usually want to force the conda-forge channel:
+#   conda install -c conda-forge osmnx
+#
+# A nice way to set the display name for the environment after activating the env:
+#   source activate {name}
+#   python -m ipykernel install --name {name} --display-name "Geocomp"
+#
+# LAUNCH
+# You can launch the 'old' notebook server by simply running:
+#   jupyter notebook
+# The more modern jupyter lab only seems to be launchable from within an environment:
+#   source activate {name}
+#   jupyter lab
+#
+# CONFIGURATION PARAMETERS
+name: gsa2018
 channels:
   - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.6
   - pip
   - cython
   - matplotlib
   - pandas
-  - scipy>=0.19
-  - numpy>=1.11
+  - scipy
+  - numpy
   - ipython
   - ipywidgets
   - jupyter
@@ -30,8 +50,8 @@ dependencies:
   - libspatialite
   - fiona
   - pillow
-  - shapely=1.5.16
-  - geopandas>=0.3
+  - shapely
+  - geopandas
   - palettable
   - pysal
   - rasterio
@@ -42,7 +62,8 @@ dependencies:
   - seaborn
   - statsmodels
   - xlrd
-  - clusterpy
+  - six
+  - lxml
   - jupyterlab
   - pip:
     - georasters
