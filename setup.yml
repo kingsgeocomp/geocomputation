@@ -53,7 +53,7 @@ dependencies:
   - shapely
   - geopandas
   - palettable
-  - pysal
+  - pysal=1.14.3
   - rasterio
   - scikit-learn
   - scikit-image
