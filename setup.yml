@@ -53,7 +53,7 @@ dependencies:
   - shapely
   - geopandas
   - palettable
-  - pysal
+  - pysal=1.14.3
   - rasterio
   - scikit-learn
   - scikit-image
@@ -65,11 +65,13 @@ dependencies:
   - six
   - lxml
   - jupyterlab
+  - mysql-connector-python
   - pip:
     - georasters
     - rasterstats
     - pointpats
     - SOMPY
+    - googlemaps
 #        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
 #   Untested alternative to pip command above (requires git):
 #        - git+git://github.com/ozak/georasters.git
