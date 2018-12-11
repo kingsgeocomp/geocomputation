@@ -71,6 +71,7 @@ dependencies:
     - rasterstats
     - pointpats
     - SOMPY
+    - chartify
     - googlemaps
 #        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
 #   Untested alternative to pip command above (requires git):
