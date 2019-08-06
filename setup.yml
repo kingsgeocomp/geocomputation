@@ -19,7 +19,7 @@
 #
 # A nice way to set the display name for the environment after activating the env:
 #   source activate {name}
-#   python -m ipykernel install --name {name} --display-name "Geocomp"
+#   python -m ipykernel install --name {name} --display-name "Geocomp 2019"
 #
 # LAUNCH
 # You can launch the 'old' notebook server by simply running:
@@ -29,9 +29,10 @@
 #   jupyter lab
 #
 # CONFIGURATION PARAMETERS
-name: gsa2018
+name: gsa2019
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.6
   - pip
@@ -53,7 +54,8 @@ dependencies:
   - shapely
   - geopandas
   - palettable
-  - pysal=1.14.3
+  - pysal
+  - pyshp
   - rasterio
   - scikit-learn
   - scikit-image
@@ -65,13 +67,20 @@ dependencies:
   - six
   - lxml
   - jupyterlab
+  - sqlite
+  - sqlalchemy 
   - mysql-connector-python
   - pip:
+    - simplejson
+    - geojson
     - georasters
     - rasterstats
     - pointpats
-    - SOMPY
-    - chartify
+    - libpysal
+    - osmnx
+    - sompy
+    - smopy # NOT a typo!
+    - pykrige
     - googlemaps
 #        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
 #   Untested alternative to pip command above (requires git):
