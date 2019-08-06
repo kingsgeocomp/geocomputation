@@ -55,6 +55,8 @@ dependencies:
   - geopandas
   - palettable
   - pysal
+  - pandana
+  - urbanaccess 
   - pyshp
   - rasterio
   - scikit-learn
