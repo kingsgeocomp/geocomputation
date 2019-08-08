@@ -29,7 +29,7 @@
 #   jupyter lab
 #
 # CONFIGURATION PARAMETERS
-name: gsa2019
+name: gsa2019c
 channels:
   - conda-forge
   - defaults
@@ -47,7 +47,9 @@ dependencies:
   - requests
   - mplleaflet
   - nb_conda
+  - nodejs
   - gdal
+  - libgdal
   - libspatialite
   - fiona
   - pillow
