@@ -55,6 +55,7 @@ dependencies:
   - geopandas
   - palettable
   - pysal
+  - dill
   - pandana
   - urbanaccess 
   - pyshp
@@ -80,10 +81,8 @@ dependencies:
     - pointpats
     - libpysal
     - osmnx
-    - sompy
+    #- git+http://github.com/sevamoo/SOMPY#egg=sompy
+    - git+http://github.com/kingsgeocomp/SOMPY#egg=sompy
     - smopy # NOT a typo!
     - pykrige
     - googlemaps
-#        - -e git+https://github.com/kingsgeocomp/SOMPY.git#egg=SOMPY
-#   Untested alternative to pip command above (requires git):
-#        - git+git://github.com/ozak/georasters.git
