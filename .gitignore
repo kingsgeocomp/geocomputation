@@ -2,3 +2,8 @@
 .DS_Store
 Data/
 *.zip
+.cache/
+.ipython/
+.jupyter/
+.local/
+.texpadtmp/
