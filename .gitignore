@@ -1,9 +1,10 @@
-.ipynb_checkpoints/
+.ipynb_checkpoints
 .DS_Store
+.cache
+.ipython
+.jupyter
+.local
+.texpadtmp
+.gdal
 Data/
 *.zip
-.cache/
-.ipython/
-.jupyter/
-.local/
-.texpadtmp/
